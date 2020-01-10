@@ -1,0 +1,28 @@
+#tabla-usuarios tr{
+	display: table-row;
+	border: none;
+}
+#tabla-usuarios .celda{
+	display: table-cell;
+
+}
+#form-registro label, #form-modificar label, #form-registro select, #form-modificar select, #form-registro .cuadro, #form-modificar .cuadro{
+	width: 25%;
+	height: 3em;
+	display: inline-block;	
+
+}
+#form-registro label, #form-modificar label{
+	margin-left: 25%;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+ #form-registro .cuadro, #form-modificar .cuadro{
+ 	font-size: 1.2em;
+}
+#form-registro select, #form-modificar select{
+	margin-left: 5%;
+	width: 15%;
+	text-align: center;
+}
